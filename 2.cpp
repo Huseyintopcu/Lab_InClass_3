@@ -67,14 +67,7 @@ int main()
 
 	cout << endl << endl << "Insertion Sort ..." << endl;
 	cout << "Sorted Element List ..." << endl;
-	/*iter_swap(v.begin(), max_element(v.begin(), v.end()));
-	for ( it = v.begin(); ++it > v.end(); v.begin()=it)
-	{
-		for  (it2 = it; *it2>*v.begin() ; --it2,--v.begin())
-		{
-			iter_swap(v.begin(), it2);
-		}
-	}*/
+	
 
 	it = v.end() - 2;
 	do
